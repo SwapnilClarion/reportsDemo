@@ -1,22 +1,5 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ {
-    "name" : "Check Allure report",
-    "children" : [ {
-      "name" : "demo ",
-      "uid" : "8cdfdfe476d7c989",
-      "parentUid" : "6a67d616a244926f133593a1ba1dc402",
-      "status" : "failed",
-      "time" : {
-        "start" : 1586240289951,
-        "stop" : 1586240292076,
-        "duration" : 2125
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-80.0.3987.149" ]
-    } ],
-    "uid" : "6a67d616a244926f133593a1ba1dc402"
-  } ]
+  "children" : [ ]
 }

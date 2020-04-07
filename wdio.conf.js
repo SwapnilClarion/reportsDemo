@@ -123,18 +123,18 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: ['spec',
-                    ['video', {
-                        saveAllVideos: false,       // If true, also saves videos for successful test cases
-                        videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-                        outputDir: './videos'
+                    [video, {
+                        saveAllVideos: false,       
+                        videoSlowdownMultiplier: 3, 
                     }],
                     [
                         'allure', {
                             outputDir: './reports/allure-results',
                             disableWebdriverStepsReporting: true,
-                            disableWebdriverScreenshotsReporting: true,
+                            disableWebdriverScreenshotsReporting: false,
                         }
                     ],
+                    
                         // 'sumologic',
                         // 'concise',
                         // 'reportportal',
