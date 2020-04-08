@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586322385822' stop='1586322391049'>
+    <name>Check Allure report</name>
+    <title>Check Allure report</title>
+    <test-cases>
+        <test-case start='1586322385833' status='failed' stop='1586322386948'>
+            <name>Test-1:Failed Test </name>
+            <title>Test-1:Failed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='838b1a2d-237c-4fc7-b472-66281fd39a66-attachment.png' type='image/png' size='581288'/>
+                <attachment title='Execution video' source='5a66bfc8-0e25-4402-a2eb-8924347e771d-attachment.mp4' type='video/mp4' size='123'/>
+            </attachments>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\reportsDemo\test\specs\allureDemo\allureSecond.spec.js:6:25)
+                    at Context.executeSync (D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586322387019' status='broken' stop='1586322391019'>
+            <name>Test-2: Passed Test </name>
+            <title>Test-2: Passed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c8f24173-ec5d-4bbe-b147-499bd736e08c-attachment.png' type='image/png' size='571381'/>
+                <attachment title='Screenshot' source='14a2398f-dfa0-43f0-98e4-cea24b5e3100-attachment.png' type='image/png' size='802336'/>
+                <attachment title='Execution video' source='f5925084-9462-4103-9792-e1fe783cf05e-attachment.mp4' type='video/mp4' size='124'/>
+            </attachments>
+            <failure>
+                <message>status is not defined</message>
+                <stack-trace>ReferenceError: status is not defined
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\reportsDemo\test\specs\allureDemo\allureSecond.spec.js:12:30)
+                    at Context.executeSync (D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586322391048' status='pending' stop='1586322391048'>
+            <name>Test-3: Skipped Test </name>
+            <title>Test-3: Skipped Test </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

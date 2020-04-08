@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected true to be false",
+      "children" : [ {
+        "name" : "Test-1:Failed Test ",
+        "uid" : "4ebf873f59bc70b9",
+        "parentUid" : "9a1171e5345e518c08f8a5018986d4fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586324942597,
+          "stop" : 1586324945110,
+          "duration" : 2513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-80.0.3987.149" ]
+      } ],
+      "uid" : "9a1171e5345e518c08f8a5018986d4fb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

@@ -1,0 +1,101 @@
+{
+  "uid" : "ac5ae1f20bcb84c1",
+  "name" : "Test-2: Passed Test ",
+  "fullName" : "Check Allure report.Test-2: Passed Test ",
+  "historyId" : "a1cc5980fbb62c3c67f01433c9dea2cb",
+  "time" : {
+    "start" : 1586324945258,
+    "stop" : 1586324945262,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-2: Passed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "681838cf394db2b6",
+      "status" : "broken",
+      "statusDetails" : "status is not defined",
+      "time" : {
+        "start" : 1586324945164,
+        "stop" : 1586324946764,
+        "duration" : 1600
+      }
+    }, {
+      "uid" : "50b889435f9cd534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586322388777,
+        "stop" : 1586322388780,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "2ca33ea8f90dada7",
+      "status" : "broken",
+      "statusDetails" : "status is not defined",
+      "time" : {
+        "start" : 1586322387019,
+        "stop" : 1586322391019,
+        "duration" : 4000
+      }
+    }, {
+      "uid" : "92fc2571fd6270d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586321942350,
+        "stop" : 1586321942352,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c7a88ea0c93371f7",
+      "status" : "broken",
+      "statusDetails" : "status is not defined",
+      "time" : {
+        "start" : 1586321939844,
+        "stop" : 1586321943098,
+        "duration" : 3254
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac5ae1f20bcb84c1.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

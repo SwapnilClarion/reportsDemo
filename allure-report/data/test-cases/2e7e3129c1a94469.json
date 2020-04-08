@@ -1,0 +1,82 @@
+{
+  "uid" : "2e7e3129c1a94469",
+  "name" : "Test-1:Failed Test ",
+  "fullName" : "Check Allure report.Test-1:Failed Test ",
+  "historyId" : "ce6744769a2d84db10cd9d8f657683ab",
+  "time" : {
+    "start" : 1586324941133,
+    "stop" : 1586324945212,
+    "duration" : 4079
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\reportsDemo\\test\\specs\\allureDemo\\allureFirst.spec.js:5:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\reportsDemo\\test\\specs\\allureDemo\\allureFirst.spec.js:5:25)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d6cdaef75f8c9f4",
+      "name" : "Screenshot",
+      "source" : "9d6cdaef75f8c9f4.png",
+      "type" : "image/png",
+      "size" : 579856
+    }, {
+      "uid" : "8e12a477bb2e3ea6",
+      "name" : "Execution video",
+      "source" : "8e12a477bb2e3ea6.mp4",
+      "type" : "video/mp4",
+      "size" : 120
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-1:Failed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e7e3129c1a94469.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}

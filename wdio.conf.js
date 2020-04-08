@@ -1,4 +1,5 @@
 const video = require('wdio-video-reporter');
+const allureReporter=require('@wdio/allure-reporter').default;
 exports.config = {
     //
     // ====================
@@ -125,7 +126,8 @@ exports.config = {
     reporters: ['spec',
                     [video, {
                         saveAllVideos: false,       
-                        videoSlowdownMultiplier: 3, 
+                        videoSlowdownMultiplier: 3,
+                        outputDir: './videos', 
                     }],
                     [
                         'allure', {
@@ -224,6 +226,7 @@ exports.config = {
         if (!passed) {
             browser.saveScreenshot(`./screenshots/Test_${test.title}_${Math.floor(date/10000)}_scr.png`)
         }
+        allureReporter.endStep(status);
     },
 
 

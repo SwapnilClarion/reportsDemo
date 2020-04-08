@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586324941123' stop='1586324945268'>
+    <name>Check Allure report</name>
+    <title>Check Allure report</title>
+    <test-cases>
+        <test-case start='1586324941133' status='failed' stop='1586324945212'>
+            <name>Test-1:Failed Test </name>
+            <title>Test-1:Failed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef4a2da9-7acd-409f-9f96-583f77b414ea-attachment.png' type='image/png' size='579856'/>
+                <attachment title='Execution video' source='b7c2270a-79f6-4174-b1db-5a79aa0e1944-attachment.mp4' type='video/mp4' size='120'/>
+            </attachments>
+            <failure>
+                <message>expected true to be false</message>
+                <stack-trace>AssertionError: expected true to be false
+                    at Context.&lt;anonymous> (D:\WebDriverIO\Practice\reportsDemo\test\specs\allureDemo\allureFirst.spec.js:5:25)
+                    at Context.executeSync (D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:56:18)
+                    at D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1586324945258' status='passed' stop='1586324945262'>
+            <name>Test-2: Passed Test </name>
+            <title>Test-2: Passed Test </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-80.0.3987.149'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1586324945265' status='pending' stop='1586324945265'>
+            <name>Test-3: Skipped Test </name>
+            <title>Test-3: Skipped Test </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

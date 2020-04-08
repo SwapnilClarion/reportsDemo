@@ -1,4 +1,15 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 1,
+  "items" : [ {
+    "uid" : "beae24c27ebddfbfdfd4846b074d0382",
+    "name" : "Check Allure report",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
 }

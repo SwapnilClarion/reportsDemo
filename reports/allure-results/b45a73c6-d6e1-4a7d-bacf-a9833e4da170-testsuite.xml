@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586253742855' stop='1586253746025'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1586321940202' stop='1586321942356'>
     <name>Check Allure report</name>
     <title>Check Allure report</title>
     <test-cases>
-        <test-case start='1586253742865' status='failed' stop='1586253745985'>
+        <test-case start='1586321940212' status='failed' stop='1586321942303'>
             <name>Test-1:Failed Test </name>
             <title>Test-1:Failed Test </title>
             <labels>
@@ -16,8 +16,8 @@
             </parameters>
             <steps/>
             <attachments>
-                <attachment title='Screenshot' source='f21cd4c6-ef35-459b-9545-2da1e06b75d2-attachment.png' type='image/png' size='571381'/>
-                <attachment title='Execution video' source='466dd815-c731-4c93-b2c8-60947115d323-attachment.mp4' type='video/mp4' size='123'/>
+                <attachment title='Screenshot' source='dd31b3ea-81b1-4228-be0a-d0aeb3042bb6-attachment.png' type='image/png' size='574525'/>
+                <attachment title='Execution video' source='dccf94a2-0df9-430f-ab7f-850c2faf3b74-attachment.mp4' type='video/mp4' size='123'/>
             </attachments>
             <failure>
                 <message>expected true to be false</message>
@@ -27,7 +27,7 @@
                     at D:\WebDriverIO\Practice\reportsDemo\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1586253746020' status='passed' stop='1586253746022'>
+        <test-case start='1586321942350' status='passed' stop='1586321942352'>
             <name>Test-2: Passed Test </name>
             <title>Test-2: Passed Test </title>
             <labels>
@@ -41,7 +41,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1586253746024' status='pending' stop='1586253746024'>
+        <test-case start='1586321942355' status='pending' stop='1586321942355'>
             <name>Test-3: Skipped Test </name>
             <title>Test-3: Skipped Test </title>
             <labels/>

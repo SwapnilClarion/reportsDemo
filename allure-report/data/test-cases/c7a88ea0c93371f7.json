@@ -1,0 +1,88 @@
+{
+  "uid" : "c7a88ea0c93371f7",
+  "name" : "Test-2: Passed Test ",
+  "fullName" : "Check Allure report.Test-2: Passed Test ",
+  "historyId" : "a1cc5980fbb62c3c67f01433c9dea2cb",
+  "time" : {
+    "start" : 1586321939844,
+    "stop" : 1586321943098,
+    "duration" : 3254
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "status is not defined",
+  "statusTrace" : "ReferenceError: status is not defined\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\reportsDemo\\test\\specs\\allureDemo\\allureSecond.spec.js:12:30)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "status is not defined",
+    "statusTrace" : "ReferenceError: status is not defined\n                    at Context.<anonymous> (D:\\WebDriverIO\\Practice\\reportsDemo\\test\\specs\\allureDemo\\allureSecond.spec.js:12:30)\n                    at Context.executeSync (D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at D:\\WebDriverIO\\Practice\\reportsDemo\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "67bb2992da05bcc1",
+      "name" : "Screenshot",
+      "source" : "67bb2992da05bcc1.png",
+      "type" : "image/png",
+      "size" : 802336
+    }, {
+      "uid" : "2f59aa953e2409f7",
+      "name" : "Screenshot",
+      "source" : "2f59aa953e2409f7.png",
+      "type" : "image/png",
+      "size" : 802336
+    }, {
+      "uid" : "a1b645d35c696947",
+      "name" : "Execution video",
+      "source" : "a1b645d35c696947.mp4",
+      "type" : "video/mp4",
+      "size" : 124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test-2: Passed Test "
+  }, {
+    "name" : "package",
+    "value" : "Check Allure report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.149"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7a88ea0c93371f7.json",
+  "parameterValues" : [ "chrome-80.0.3987.149" ]
+}
